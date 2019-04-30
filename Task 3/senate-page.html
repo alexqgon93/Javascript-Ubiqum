@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="page_des.css">
+    </head>
+    <body>
+        <nav>
+        <div>
+            <div class="navegator">
+                    <div><a href="home-page.html"><img src="images_senate.png" alt="logo" class="logo"></a></div>
+                    <div class="email"><img src="carta.png" alt="logo" class="logo_mail"><a href="mailto:alexqgon93@gmail.com">Send us an email</a></div>
+            </div>
+            <ul class="spacebar">
+                    <a class="btn btn-secondary" href="home-page.html" role="button">Home</a>
+                      <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Congress 113</button>
+                          <div class="dropdown-content">
+                            <a href="senate-page.html">Senators</a>
+                            <a href="house-page.html">House</a>
+                          </div>
+                      </div>
+                      <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Attendance</button>
+                          <div class="dropdown-content">
+                            <a href="attendance-senate.html">Senate</a>
+                            <a href="attendance-house.html">House</a>
+                          </div>
+                      </div>
+                      <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Party Loyalty</button>
+                          <div class="dropdown-content">
+                            <a href="loyalty-senate.html">Senate</a>
+                            <a href="loyalty-house.html">House</a>
+                          </div>
+                      </div>
+                </ul>
+        </div>
+        </nav>        
+        <!--Table container-->
+        <div>
+            <h2>Senators</h2>
+            <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
+        </div>
+        <div class="custom-control custom-checkbox" id="filters">
+                <div class="filter_check" id="box">
+                        <b>Fiter the table by Party:</b>
+                        <div class="form-check" id="box_in">
+                            <input type="checkbox" class="form-check-input" id="Polictical_1" name=Political onchange="tablefiltered()" value="R">
+                            <label for="Polictical_1" class="form-check-label" >Republican</label>
+                        </div>
+                        <div class="form-check" id="box_in">
+                                <input type="checkbox" class="form-check-input" id="Polictical_2" name=Political onchange="tablefiltered()" value="D">
+                                <label for="Polictical_2" class="form-check-label">Democrat</label>
+                        </div>
+                        <div class="form-check" id="box_in">
+                                <input type="checkbox" class="form-check-input" id="Polictical_3" name=Political onchange="tablefiltered()" value="I">
+                                <label for="Polictical_3" class="form-check-label">Independent</label>
+                        </div>
+                    </div>
+                <div>
+                    <b>Filter by State:</b>
+                    <select id="selector">
+                    </select>
+                </div>
+            </div>
+        <table class="table table-bordered">
+          <thead>
+              <tr>
+                  <th id="head">Full name</th>
+                  <th>Party</th>
+                  <th>State</th>
+                  <th>Seniority</th>
+                  <th>Percentage</th>
+              </tr>
+          </thead>
+          <tbody id="senate_data"></tbody>
+      </table>
+      <footer>
+            <div class="footer">
+                <ul class="spacebar_footer"><img class="im" src="registered.png" alt="logo" class="logo"> 2016 TGIF |  All Rights Reserved</ul>
+            </div>
+          </footer>   
+      <script src="pro-congress-113-senate.js"></script>
+      <script src="senatemain.js"></script>
+      <script src="filter.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+body{
+  margin: 40px;
+  margin-left: 40px;
+  font-family: 'Exo', sans-serif;
+}
+p{
+  text-align: justify;
+}
+#head{
+  width: 50%;
+}
+#box{
+  display: flex;
+}
+#box_in{
+  margin-left: 20px;
+}
+.acor-imag{
+  display:flex; 
+}
+#filters{
+  display: flex;
+  justify-content: space-between;
+}
+#accordionExample{
+  width: 80%;
+}
+.filter_check{
+  justify-content: flex;
+}
+.logo_mail{
+  width: 100px; height: 100px;
+}
+.email{
+  font-family: 'Fredericka the Great', cursive;
+  color:dimgray;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 200px; height: 200px;
+  margin-bottom: 3.5%;
+}
+.big_imag{
+  margin-left: 30px; 
+  width: 250px; height: 200px;
+}
+.im{
+  width: 3.5%;
+}
+.navegator{
+  display:flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+.spacebar{
+  border-style: groove;
+  background-color: gainsboro;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+  border-style: groove;
+  margin-top: 2%;
+}
+.spacebar_footer{
+  margin-left: 200px;
+  justify-content: center;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: dimgray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;} 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#div_central{
+  margin-top: 2%;
+  border-bottom: 2px solid grey;
+  height: 300px;
+}
+#div_inferior{
+  margin-top: 2%;
+}
+#div_upper{
+  margin-top: 2%;
+  border-bottom: 2px solid grey;
+  height: 400px;
+}
+#div_inf{
+  margin-top: 2%;
+}
+#header{
+  display: flex;
+  justify-items: end;
+}
+#table_mix{
+  margin-top: 46px;
+}

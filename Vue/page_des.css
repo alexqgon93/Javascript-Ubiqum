@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada');
+
+body{
+  padding-left: 13%;
+  padding-right: 13%; 
+  font-family: 16px 'Montserrat', sans-serif;
+}
+h2{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+p{
+  text-align: justify;
+}
+.container{
+  display:flex;
+  justify-content: center;
+}
+#tb{
+  padding-left: 2%;
+  padding-right:2%; 
+  width: 80%;
+}
+#app_senate{
+  position: -webkit-sticky;
+}
+#head{
+  position:sticky;
+  width: 50%;
+}
+#box{
+  display: flex;
+}
+#box_in{
+  margin-left: 20px;
+}
+.acor-imag{
+  display:flex; 
+}
+#filters{
+  display:block;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+#accordionExample{
+  width: 80%;
+}
+.filter_check{
+  justify-content: flex;
+}
+.logo_mail{
+  margin-left: 60%;
+  width: 10%;
+}
+.logo_house{
+  width: 30%;
+  margin-bottom: 3.5%;
+}
+.pre_search{
+  display:flex;
+  flex-direction: column;
+}
+.email{
+  font-family: 'Fredericka the Great', cursive;
+  color:dimgray;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.logo{
+  width: 20%;
+  margin-bottom: 3.5%;
+}
+.big_imag{
+  margin-left: 30px; 
+  width: 250px; height: 200px;
+}
+.im{
+  width: 3.5%;
+}
+.navegator{
+  margin-top: 2%;
+  display:flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+.spacebar{
+  border-style: groove;
+  background-color: gainsboro;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+  border-style: groove;
+  margin-top: 2%;
+}
+.spacebar_footer{
+  margin-left: 200px;
+  justify-content: center;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: dimgray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;} 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#div_central{
+  margin-top: 2%;
+  border-bottom: 2px solid grey;
+  height: 300px;
+}
+#div_inferior{
+  margin-top: 2%;
+}
+#div_upper{
+  margin-top: 2%;
+  border-bottom: 2px solid grey;
+  height: 400px;
+}
+#div_inf{
+  margin-top: 2%;
+}
+#header{
+  display: flex;
+  justify-items: end;
+}
+#table_mix{
+  margin-top: 46px;
+}
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 6px;
+  box-sizing: border-box;
+  border: 26px solid #cef;
+  border-color: #cef transparent #cef transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
